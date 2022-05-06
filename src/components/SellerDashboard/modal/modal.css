@@ -1,0 +1,22 @@
+.cellWrapper {
+    display: flex;
+    align-items: center;
+}
+  
+.tableImage {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.orderProduct {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.orderProductTitle{
+    display: flex;
+    
+}

@@ -1,0 +1,22 @@
+.loading {
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+    
+    width: 100%;
+}
+
+.loading-circle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-top-color: #ab7a5f;
+    box-sizing: border-box;
+    animation: loader 1s linear infinite;
+    background-color: white;
+}
+@keyframes loader {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

@@ -1,0 +1,105 @@
+export const userInputs = [
+    {
+      id: 1,
+      label: "First Name",
+      name: "firstName",
+      type: "text",
+      placeholder: "First Name",
+    },
+    {
+      id: 2,
+      label: "last Name",
+      name: "lastName",
+      type: "text",
+      placeholder: "last name",
+    },
+    {
+      id: 3,
+      label: "Email",
+      name: "email",
+      type: "mail",
+      placeholder: "john_doe@gmail.com",
+    },
+    {
+      id: 4,
+      label: "Phone Number",
+      type: "text",
+      name: "phoneNumber",
+      placeholder: "+1 234 567 89",
+    },
+    {
+      id: 5,
+      label: "Country",
+      type: "text",
+      name: "country",
+      placeholder: "Country",
+    },
+    {
+      id: 6,
+      label: "City",
+      type: "text",
+      name: "city",
+      placeholder: "city",
+    },
+    {
+      id: 7,
+      label: "Address Line 1",
+      type: "text",
+      name: "addressLine1",
+      placeholder: "Address line 1",
+    },
+    {
+      id: 8,
+      label: "Zip Code",
+      type: "text",
+      name: "zipCode",
+      placeholder: "Zip Code",
+    },
+    {
+      id: 9,
+      label: "Shipping Division",
+      type: "text",
+      name: "shippindDivision",
+      placeholder: "Shipping Division",
+    },
+    {
+      id: 10,
+      label: "Shipping Option",
+      type: "text",
+      name: "shippingOption",
+      placeholder: "Shipping option",
+    },
+  ];
+  
+  export const productInputs = [
+    {
+      id: 1,
+      label: "Name",
+      type: "text",
+      placeholder: "Apple Macbook Pro",
+    },
+    {
+      id: 2,
+      label: "Description",
+      type: "text",
+      placeholder: "Description",
+    },
+    {
+      id: 3,
+      label: "Category",
+      type: "text",
+      placeholder: "category",
+    },
+    {
+      id: 4,
+      label: "Price",
+      type: "Number",
+      placeholder: "price",
+    },
+    {
+      id: 5,
+      label: "Quantity",
+      type: "Number",
+      placeholder: "quantity",
+    },
+  ];

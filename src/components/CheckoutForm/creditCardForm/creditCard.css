@@ -1,0 +1,47 @@
+.creditCardContainer {
+ display: flex;
+}
+
+.creditCardForm {
+   margin-top: 10px;
+}
+.inputs {
+    width: 45%;
+    margin-left: 20px;
+    height: 28px;
+}
+.name, .number {
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    height: 28px;
+}
+.creditShortInput {
+   display: flex;
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .creditCardContainer {
+        flex-direction: column;
+        
+    }
+    .name, .number {
+        width: 280px;
+        place-items: center;
+        
+    }
+    .inputs {
+        width: 125px;
+    }
+    .inputs:first-child{
+        margin: auto;
+    }
+    .creditCardForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
