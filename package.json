@@ -1,6 +1,7 @@
 {
   "name": "Shopinext",
-  "version": "1.0.0",
+  "homepage": ".",
+  "version": "1.0.1",
   "description": "Shopinext",
   "keywords": [
     "react",
